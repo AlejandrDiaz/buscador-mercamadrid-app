@@ -44,7 +44,7 @@ const PrespuestaElastic  = (eresponde) => {
           );
           res.json({
             message: "Búsqueda Satisfactoria",
-            records: PrespuestaElastic(response),
+            info: PrespuestaElastic(response),
                       
             });
         } catch (err) {
