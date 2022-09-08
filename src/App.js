@@ -33,7 +33,7 @@ function App() {
           <div className="camposelect">
           <SeleccionCampo setCampo2={setCampo2}/>
           </div>
-        <BarraBusqueda placeholder="Busca aquí" setBusquedat={setBusquedat} />
+          <BarraBusqueda placeholder="Busca aquí" setBusquedat={setBusquedat} />
         </div> 
       <ListaBusqueda datos={datos}/>
     </div>
